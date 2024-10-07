@@ -1,0 +1,33 @@
+nav{
+    background-color: grey;
+    text-align: center;
+    padding: 1%;
+}
+
+li{
+    display: inline;
+}
+logo{
+    display: inline;
+}
+h1{
+    display: inline;
+}
+section{
+    background-color: grey;
+    text-align: center;
+    padding: 1%;
+    display: inline;
+    float: left;
+    width: 80%;
+
+
+}
+aside{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 1%;
+    display: inline;
+    float: left;
+    width: 16%;
+}
