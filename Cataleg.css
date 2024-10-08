@@ -57,7 +57,7 @@ header h1 {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 10px;
     max-width: 1200px;
@@ -70,25 +70,32 @@ header h1 {
     overflow: hidden;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .product-item img {
     max-width: 100%;
+    object-fit: cover;
+    flex: 6; /* 60% */
+}
+.product-info {
+    flex: 4; /* 40% */
+    padding: 10px;
 }
 
 .product-item h3 {
     color: #fff;
-    margin: 10px;
-    margin-bottom: 1px;
+    margin: 5px 0;
     font-size: 1.6em;
     font-family: Constantia, "Times new Roman", serif;
 }
 
 .product-item p {
     color: #ff0000;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     font-family: Audio, "Times new Roman", serif;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin: 10px 0;
 }
