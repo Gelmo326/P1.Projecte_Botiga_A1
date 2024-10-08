@@ -52,3 +52,20 @@ pre{
     text-align: justify;
     white-space: break-spaces;
 }
+
+<!-- especific contacte -->
+
+#fonscontact{
+    background-color: blue;
+    color: white;
+}
+
+
+div p.xarxes{
+    font-size: 0.1em;
+}
+
+div img.xarxes{
+    width: 50px;
+    height: 50px;
+}
