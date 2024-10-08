@@ -1,5 +1,4 @@
 nav{
-    background-color: grey;
     text-align: center;
     padding: 1%;
 }
@@ -7,9 +6,12 @@ nav{
 li{
     display: inline;
 }
-header{
+h1{
     display: flex;
-    align-items: center;
+}
+.cestaboto{
+    display: flex;
+
 }
 #logo{
     display: inline;
