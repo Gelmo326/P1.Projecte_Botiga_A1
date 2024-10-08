@@ -6,6 +6,12 @@ body {
     padding: 0;
 }
 
+header h1 {
+    text-align: center;
+    font-family: Constantia;
+    font-size: 100px;
+}
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
