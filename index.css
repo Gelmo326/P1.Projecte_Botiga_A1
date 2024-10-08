@@ -15,9 +15,8 @@ header{
     display: inline;
     width: 12%;
 }
-h1{
-    display: inline;
-}
+
+
 section{
     background-color: whitesmoke;
     text-align: center;
@@ -44,6 +43,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 98%;
 }
 
 pre{
