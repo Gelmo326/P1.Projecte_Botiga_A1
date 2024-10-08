@@ -7,8 +7,13 @@ nav{
 li{
     display: inline;
 }
-logo{
+header{
+    display: flex;
+    align-items: center;
+}
+#logo{
     display: inline;
+    width: 12%;
 }
 h1{
     display: inline;
