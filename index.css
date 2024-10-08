@@ -44,5 +44,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+pre{
+    text-align: justify;
+    white-space: break-spaces;
 }
