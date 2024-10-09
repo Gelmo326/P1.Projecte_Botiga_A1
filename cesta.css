@@ -1,0 +1,12 @@
+
+div{
+    display: flex;
+    float: left;
+    align-items: center;
+
+}
+img{
+    width: 10%;
+    height: 10%;
+    display: inline;
+}
