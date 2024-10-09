@@ -34,23 +34,35 @@ section{
 
 
 }
+
+article{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1%;
+    display: inline;
+    float: left;
+    width: 80%;
+}
+
 aside{
     background-color: greenyellow;
     text-align: center;
     padding: 1%;
     display: inline;
     float: left;
-    width: 16%;
+    width: 19%;
+    height: 80%;
 }
 footer{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: black;
+    color: red;
     text-align: center;
     padding: 0.5%;
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 98%;
+    height: 19%;
 }
 
 pre{
@@ -58,19 +70,35 @@ pre{
     white-space: break-spaces;
 }
 
+article{
+    background-color: #2f2f2f;
+    width: 79%;
+    height: 80%;
+}
 <!-- especific contacte -->
 
+h1.titol{
+    text-align: center;
+}
+
 #fonscontact{
+    width: 100%;
+    height: 100%;
     background-color: blue;
     color: white;
 }
 
 
-div p.xarxes{
+.xarxes{
+    width: 50px;
+    height: 50px;
+}
+
+.xarxestext{
     font-size: 0.1em;
 }
 
-div img.xarxes{
-    width: 50px;
-    height: 50px;
+.titolcont{
+    font-size: xxx-large;
+    text-align: center;
 }
