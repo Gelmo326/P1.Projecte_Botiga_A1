@@ -7,15 +7,20 @@ li{
     display: inline;
 }
 h1{
-    display: flex;
+    display: inline;
+    text-align: center;
+    width: 89%;
+
 }
 .cestaboto{
-    display: flex;
+    display: inline;
 
 }
 #logo{
     display: inline;
-    width: 12%;
+}
+img{
+    width: 10%;
 }
 
 
