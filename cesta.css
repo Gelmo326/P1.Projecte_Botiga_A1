@@ -14,8 +14,11 @@ input{
     width: 30px;
 }
 .aa{
-    margin-left: 100%;
+  padding-left: 100%;
 }
 #productes{
     display:block;
+}
+#espacio{
+    width: 400px;
 }
