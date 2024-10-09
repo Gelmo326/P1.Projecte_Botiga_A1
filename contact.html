@@ -1,58 +1,89 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <link rel="icon" type="img/png" href="multimedia/favicon-32x32.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
     <title>Bobby cotxes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></head>
 <body>
-
-<h1>Contacte amb nosaltres</h1>
-
-<div id="ubicació">
-    <p>Ubicació</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8040.035165069559!2d2.1617743040287287!3d41.380411918162956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2605d252499%3A0xdd4e5bfc88eef547!2sMulti%C3%B3pticas!5e0!3m2!1ses!2ses!4v1728378177847!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
-<h2>Direcció</h2>
-<p>Rda. de Sant Antoni, 4, Ciutat Vella, 08001 Barcelona</p>
-
-<h2>Contacte</h2>
-
-<h3>Telefón</h3>
-<p>Central: 932 345 678</p>
-<p>Secretaria: 932 344 670</p>
-<p>Emergencia: 612 345 678</p>
-
-<h3>Correu</h3>
-<p>Informació: info@bobbycotxes.com</p>
-<p>Departament de vendes: vendes@bobbycotxes.com</p>
-<p>Suport al client: suport@bobbycotxes.com</p>
-
-<div class="btn-group" role="group">
-    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        Vols enviar un correu?
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-        <li><a class="dropdown-item" href="#">Enviar correu a info@bobbycotxes.com?</a></li>
-        <li><a class="dropdown-item" href="#"> Enviar correu a vendes@bobbycotxes.com? </a></li>
-        <li><a class="dropdown-item" href="#">Enviar correu a suport@bobbycotxes.com?</a></li>
+<header>
+    <div class="d-grid gap-2 d-md-flex">
+    <img id="logo" src="multimedia/logo.png" alt="Logo">
+    <h1>Cotxes Bobby</h1>
+    </div>
+    <div id="cestaboto" class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button">Button</button>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><button type="button" class="btn btn-outline-danger" href="index.html">Home</button></li>
+        <li><button type="button" class="btn btn-outline-danger" href="Form.user.html">Donat d'alta</button></li>
+        <li><button type="button" class="btn btn-outline-danger" href="Cataleg.html">Catalec</button></li>
+        <li><button type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</button></li>
+        <li><button type="button" class="btn btn-outline-danger" href="condicions.html">Condicions</button></li>
     </ul>
-</div>
+</nav>
 
-<div id="Trucada"></div>
+<article>
+        <h1 class="titolcont">Contacte amb nosaltres</h1>
 
-<div id="xarxessocials">
-    <h2>Xarxes socials</h2>
-    <p>Whatsapp: 612 345 678</p>
-    <p>Instagram: @bobbycotxesofficial</p>
-    <p>Facebook: Bobby Cotxes Official</p>
-</div>
+        <h3 class="fs-3">Ubicació</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8040.035165069559!2d2.1617743040287287!3d41.380411918162956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2605d252499%3A0xdd4e5bfc88eef547!2sMulti%C3%B3pticas!5e0!3m2!1ses!2ses!4v1728378177847!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h3 class="fs-3">Direcció</h3>
+        <p>Rda. de Sant Antoni, 4, Ciutat Vella, 08001 Barcelona</p>
+
+        <h2 class="fs-2">Contacte</h2>
+
+        <h3 class="fs-3">Telefón</h3>
+        <p>Central: 932 345 678</p>
+        <p>Secretaria: 932 344 670</p>
+        <p>Emergencia: 612 345 678</p>
+
+        <h3 class="fs-3">Correu</h3>
+        <p>Informació: info@bobbycotxes.com</p>
+        <p>Departament de vendes: vendes@bobbycotxes.com</p>
+        <p>Suport al client: suport@bobbycotxes.com</p>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button type="button" class="btn btn-dark btn-lg text-danger" data-bs-toggle="popover" data-bs-placement="top" title="Enviar correu" data-bs-content="Segur que vols enviar un correu a info@bobbycotxes.com?">Enviar correu</button>
+            <button type="button" class="btn btn-dark btn-lg text-danger" data-bs-toggle="popover" data-bs-placement="top" title="Fer trucada" data-bs-content="Segur que vols fer una trucada a la Central: 932 345 678?">Trucar</button>
+        </div>
+
+        <br>
+
+        <h2 class="fs-2 text-center">Xarxes socials</h2>
+
+        <div class="d-flex flex-row contenidorxarxes justify-content-center">
+            <div>
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-placement="top" title="Whatsapp" data-bs-content="612 345 678"><img class="xarxes" src="multimedia/xarxessocials/whatsapp.png"></button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="popover" data-bs-placement="bottom" title="Instagram" data-bs-content="@bobbycotxesofficial"><img class="xarxes" src="multimedia/xarxessocials/instagram.png"></button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-outline-primary buttoF" data-bs-toggle="popover" data-bs-placement="top" title="Facebook" data-bs-content="Bobby Cotxes Official"><img class="xarxes" src="multimedia/xarxessocials/facebook.png"></button>
+            </div>
+        </div>
+</article>
+<aside>
+    <h2>Destacat</h2>
+    <p>Zentorno</p>
+</aside>
+<footer>
+    <p>Copyright © 2024 Robert Vila</p>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
 </body>
 </html>
