@@ -130,7 +130,7 @@ header h1 {
     background-color: #e0a800;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) { /* esto sirve para verlo desde un dispositivo mobil */
     body {
         background: blue;
     }
