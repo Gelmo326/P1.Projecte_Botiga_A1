@@ -6,7 +6,19 @@ div{
 
 }
 img{
-    width: 10%;
-    height: 10%;
-    display: inline;
+    width: 200px;
+    height: auto;
+
+}
+input{
+    width: 30px;
+}
+.aa{
+  padding-left: 100%;
+}
+#productes{
+    display:block;
+}
+#espacio{
+    width: 400px;
 }
