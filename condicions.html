@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Termes i condicions de compra</title>
+  <meta charset="UTF-8">
+  <title>Cotxes Bobby</title>
   <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="icon" type="img/png" href="multimedia/favicon-32x32.png">
+
+  <title>Termes i condicions de compra</title>
+  <link rel="stylesheet" href="cssgeneral.css">
 </head>
 <body>
-<header>
-  <img id="logo" src="multimedia/logo.png" alt="Logo">
-  <h1>Cotxes Bobby</h1>
+<header class="mt-0">
+  <div class="d-flex justify-content-center">
+    <div class="text-center mt-2 me-2">
+      <img class="img-fluid imgheader" src="multimedia/logo.png" alt="Logo">
+    </div>
+    <div>
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <p id="titolheader" class="fs-1">Cotxes Bobby</p>
+        </blockquote>
+        <p class="blockquote-footer">
+          Potencia en cada corba, la emoció en cada kilometre
+        </p>
+      </figure>
+    </div>
+  </div>
 </header>
-<nav>
-  <ul>
-    <li><a type="button" class="btn btn-outline-danger" href="index.html">Home</a></li>
-    <li><a type="button" class="btn btn-outline-danger" href="Form.user.html">Donat d'alta</a></li>
-    <li><a type="button" class="btn btn-outline-danger" href="Cataleg.html">Catalec</a></li>
-    <li><a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a></li>
-    <li><a type="button" class="btn btn-outline-danger" href="condicions.html">Condicions</a></li>
-  </ul>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="d-flex menuP">
+      <div class="me-2"><a type="button" class="btn btn-outline-danger" href="index.html">Home</a></div>
+      <div class="me-2"><a type="button" class="btn btn-outline-danger" href="Cataleg.html">Catalec</a></div>
+      <div class="me-2"><a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a></div>
+      <div class="me-2"><a type="button" class="btn btn-outline-danger" href="contact.html">Contacte</a></div>
+      <div class="me-2"><a type="button" class="btn btn-outline-danger" href="condicions.html">Condicions</a></div>
+    </div>
+    <div id="cestaboto" class="d-flex flex-row justify-content-md-end justify-content-between">
+      <a href="Form.user.html" class="btn btn-primary me-2" type="button"><img class="compra" src="multimedia/compte.png"></a>
+      <a href="Cesta.html" class="btn btn-primary" type="button"><img class="compra" src="multimedia/compra.png"></a>
+    </div>
+  </div>
+
 </nav>
 
-<section>
-  <h2>Termes i condicions de compra</h2>
+<article>
+  <h2 class="fs-1">Termes i condicions de compra</h2>
   <pre>
-    <b>1. Disposicions generals</b>
+    <b class="fs-4">1. Disposicions generals</b>
 
     1.1. Els següents termes i condicions de compra són d’aplicació a la compra-venda de productes a través del lloc web Cotxes Bobby
 
@@ -33,17 +58,17 @@
 
     1.3. Aquest contracte s’ha redactat en català i està regulat per la legislació espanyola segons la Llei 3/2014, de 27 de març, per la que es modifica el text refós de la Ley General para la defensa de los Consumidores y Usuarios, i altres lleis complementàries, aprovat pel Real Decreto Legislativo 1/2007, de 16 de noviembre, i la Ley 34/2002, del 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (“LSSI”).
 
-    <b>2. Productes</b>
+    <b  class="fs-4">2. Productes</b>
 
     2.1. El lloc web disposa d’informació sobre els productes subministrats conforme els Articles 60, 63 i 97 de la Llei del Consumidor i els Articles 27 i 28 de la LSSI.
 
     2.2. Els productes exposats a Cotxes Bobby que enviarem al client són exclusivament per al seu ús personal. No s’autoritzen revendes dels productes enviats a través del nostre web. Cops Amagats i el seu Propietari es reserven el dret de cancel·lar o reduir les quantitats de productes a entregar si intuïm que s’estan incomplint els termes i condicions de venda exposats.
 
-    <b>3. Preus</b>
+    <b  class="fs-4">3. Preus</b>
 
     Els preus dels productes de Cotxes bobby que figuren al nostre web són en Euros i inclouen l’IVA en els tipus vigent. Les despeses d’enviament se sumaran al preu del producte i es calculen a part en el formulari de comanda.
 
-    <b>4. Realització de la comanda</b>
+    <b class="fs-4">4. Realització de la comanda</b>
 
     A traves de la nostra web podeu realitzar la comanda de cotxes bobby amb els productes que hagueu escollit. Per realitzar la comanda, haureu de seguir els passos següents:
 
@@ -53,21 +78,21 @@
         4. seguir els passos que apareixen a la pantalla, per a comprar el producte.
         5. Finalment, haureu de confirmar la comanda.
 
-    <b>5. Informació d’Entrega i Enviaments</b>
+    <b  class="fs-4">5. Informació d’Entrega i Enviaments</b>
 
     Tota la informació que necessiteu per a realitzar la vostra comanda la podeu trobar al formulari que omplireu a la pàgina de compra.
 
-    <b>6. Opcions de pagament</b>
+    <b  class="fs-4">6. Opcions de pagament</b>
 
     Podeu fer el pagament de les vostres comandes mitjançant targeta de crèdit, targeta de dèbit, Pay-Pal, G-Pay, ApplePay o transferència bancària si us poseu en contacte amb nosaltres. Les targetes de crèdit i dèbit acceptades són Visa, Mastercard i AmericanExpress.
     En el cas de transferència bancària, l’enviament de la comanda no es realitzarà fins al moment de rebre l’import al compte corrent indicat.
     Els titulars de les targetes de crèdit i dèbit estan subjectes a comprovacions de validació i autorització per part de l’entitat emissora de la targeta. Si l’emissor de la targeta de pagament del client denega o no autoritza el pagament a favor nostre, no serem els responsables dels endarreriments o entregues no realitzades.
 
-    <b>7. Consultes sobre comandes realitzades</b>
+    <b  class="fs-4">7. Consultes sobre comandes realitzades</b>
 
     Els enviaments es realitzaran amb la major brevetat possible després de rebre la vostra comanda. Si voleu saber en quin estat es troba la vostra comanda, trobareu tota la informació que necessiteu per a realitzar la vostra comanda la podeu trobar al formulari que omplireu a la pàgina de compra.
 
-    <b>8. Cancel·lacions de comandes</b>
+    <b  class="fs-4">8. Cancel·lacions de comandes</b>
 
     Es procedirà a cancel·lar la comanda en els següents supòsits:
 
@@ -79,7 +104,7 @@
 
     Quan es cancel·li una comanda, el client rebrà un correu electrònic fent-li saber els motius de la cancel·lació. No es cobraran al client les comandes cancel·lades.
 
-    <b>8. Entrega de la comanda</b>
+    <b  class="fs-4">8. Entrega de la comanda</b>
 
     Les comandes es preparen i envien exclusivament en dies hàbils (de dilluns a
     divendres, no festius). Les comandes que es realitzin en dia festiu o durant el cap de setmana es començaran a tramitar el següent dia hàbil.
@@ -91,7 +116,7 @@
     Les despeses d’enviament van a càrrec del client.
     No es realitzen enviaments a l’estranger.
 
-    <b>9. Dret de desistiment</b>
+    <b  class="fs-4">9. Dret de desistiment</b>
 
     9.1. Tot i que a Cops Amagats mirem d’oferir els productes de màxima qualitat; en el supòsit que el client no se senti satisfet, i en compliment de l’Article 71 de la Llei del Consumidor, tindrà dret a desistir del contracte, sense adduir cap causa dins del període de 14 dies naturals comptats a partir de la data de recepció dels
     productes.
@@ -101,23 +126,66 @@
     9.3. En el cas que el client decideixi retornar els productes adquirits per altres causes que no siguin el mal estat dels productes o l’error en la comanda entregada, caldrà procedir a la seva devolució.
     En cas que sigui per l’exercici del dret de desistiment, reemborsarem al client el preu dels productes adquirits si se’ns notifica dins dels 14 dies naturals comptats a partir del dia de la seva entrega. No així les despeses d’enviament. Cal que els productes retornats estiguin en perfecte estat, sense haver estat usats. Les despeses de l’enviament per a la seva devolució aniran a càrrec del client. Cotxes Bobby té el dret de retenir el reemborsament fins a haver rebut els productes retornats i haver-ne comprovat el seu estat.
 
-    <b>10. Absència de conformitat</b>
+    <b  class="fs-4">10. Absència de conformitat</b>
 
     10.1. En el cas d’absència de conformitat dels productes amb el contracte i seguint les determinacions del que es disposa a l’Article 116 de la Llei del Consumidor, seran d’aplicació les garanties establertes als articles 118 a 122 de l’esmentada llei. El client té dret que es reparin o substitueixin els productes sense cap cost, de forma que siguin conformes al contracte i en el seu defecte el client tindrà dret a una rebaixa adequada al preu del producte o a cancel·lar el contracte.
     En cas que no ens ho notifiqui en els catorze dies següents a l’entrega del producte, entendrem que el client renuncia a aquests drets.
 
-    <b>11. Llei aplicable</b>
+    <b  class="fs-4">11. Llei aplicable</b>
 
     11.1. Els termes d’aquest contracte estan regulats per la legislació catalana i l’espanyola, i cal que s’interpretin conforme a les lleis tant catalanes com espanyoles.
 
     11.2. Els conflictes que es puguin derivar de la interpretació o validesa d’aquests termes i condicions de compra se sotmetran a la competència dels jutjats i tribunals del lloc de residència o domicili del client.</pre>
-</section>
-<aside>
-  <h2>Destacat</h2>
-  <p>Zentorno</p>
-</aside>
+</article>
+
 <footer>
-  <p>Copyright © 2020 Robert Vila</p>
+  <div class="d-flex flex-column">
+    <div class="d-flex flex-row prefooter">
+      <div class="mt-3">
+        <h3>Vols treballar amb noslatres?</h3>
+        <p>Escriu un correu a: contratacions@bobbycotxes.com</p>
+      </div>
+
+      <div class="mt-3">
+        <h2>Xarxes socials</h2>
+        <div class="d-flex flex-row justify-content-between">
+          <div class="me-2"><button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-placement="top" title="Whatsapp" data-bs-content="612 345 678 "><img class="xarxes" src="multimedia/xarxessocials/whatsapp.png"></button></div>
+          <div class="me-2"><button type="button" class="btn btn-outline-danger" data-bs-toggle="popover" data-bs-placement="bottom" title="Instagram" data-bs-content="@bobbycotxesofficial"><img class="xarxes" src="multimedia/xarxessocials/instagram.png"></button></div>
+          <div> <button type="button" class="btn btn-outline-primary buttoF" data-bs-toggle="popover" data-bs-placement="top" title="Facebook" data-bs-content="Bobby Cotxes Official"><img class="xarxes" src="multimedia/xarxessocials/facebook.png"></button></div>
+        </div>
+      </div>
+      <div class="mt-3">
+        <h3>Vols saber més sobre nosaltres? clica aqui</h3>
+        <a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a>
+      </div>
+
+      <div class="mt-3 mb-3">
+        <div>
+          <h3>Enllaços d'interes juridic</h3>
+        </div>
+        <div class="enllaços-footer">
+          <div><a href="https://portaljuridic.gencat.cat/eli/es/lo/2018/12/05/3">Llei de Protecció de Dades</a></div>
+          <div><a href="https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=150&modo=2&nota=0&tab=2">Codi civil</a></div>
+          <div><a href="https://portaljuridic.gencat.cat/eli/es/l/2002/07/11/34">Llei de Serveis de la Societat de la Informació i del Comerç Electrònic</a></div>
+          <div><a href="https://consum.gencat.cat/ca/lagencia/codi-de-consum-de-catalunya/sintesi-dels-drets-de-les-persones-consumidores-i-usuaries/els-drets-basics-de-les-persones-consumidores/">Drets del Consumidor</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-3">
+      <p>Copyright © 2024 Bobby Cotxes</p>
+    </div>
+
+  </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+</script>
 </body>
 </html>
