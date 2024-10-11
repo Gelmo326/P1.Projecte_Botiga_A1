@@ -33,17 +33,6 @@ img{
 }
 
 
-section{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 1%;
-    display: inline;
-    float: left;
-    width: 80%;
-
-
-}
-
 header{
     margin-top: 5px;
     display: flex;
@@ -163,15 +152,6 @@ pre{
 }
 
 <!-- especific contacte -->
-
-.article-cont{
-    width: 100%;
-    color: white;
-    background-color: #383838;
-    text-align: center;
-    padding: 2%;
-
-}
 
 #fonscontact{
     width: 100%;
