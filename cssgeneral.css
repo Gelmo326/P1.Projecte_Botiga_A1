@@ -32,18 +32,6 @@ img{
     width: 10%;
 }
 
-
-section{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 1%;
-    display: inline;
-    float: left;
-    width: 80%;
-
-
-}
-
 header{
     margin-top: 5px;
     display: flex;
@@ -87,23 +75,6 @@ article{
     margin-bottom: 5px;
     width: 600px;
     height: 400px;
-}
-
-aside{
-    background-color: greenyellow;
-    text-align: center;
-    padding: 1%;
-    width: 23%;
-}
-
-aside img{
-    width: 70px;
-    height: 120px;
-}
-
-.bg-ofertes div{
-    width: 100%;
-    background-color: #a2e15f;
 }
 
 footer{
@@ -157,3 +128,29 @@ pre{
     text-align: center;
 }
 
+
+#formulari-contenidor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+input[type="email"], input[type="password"], button[type="submit"] {
+    width: 100%;
+    text-align: center;
+
+}
+
+button[type="submit"]{
+    width: 20%;
+}
