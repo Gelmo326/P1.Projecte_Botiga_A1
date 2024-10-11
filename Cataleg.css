@@ -256,6 +256,7 @@ body article {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    gap: 10px;
 }
 
 .quantity-input {
