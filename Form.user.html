@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Cotxes Bobby</title>
-  <link rel="stylesheet" href="cssgeneral.css">
+  <link rel="stylesheet" href="form.user.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="icon" type="img/png" href="multimedia/favicon-32x32.png">
 </head>
@@ -49,13 +49,15 @@
       <div class="article-titol-div">
         <h1 class="article-titol">Crear compte</h1>
       </div>
-      <div class="mb-3">
+      <div class="d-flex flex-row mb-3 justify-content-between gap-3">
+      <div>
         <label class="form-label">Nom</label>
         <input name="nom" type="text" placeholder="Bobby" class="form-control">
       </div>
-      <div class="mb-3">
+      <div>
         <label class="form-label">Cognom</label>
         <input name="cognom" type="text" placeholder="Cotxes" class="form-control">
+      </div>
       </div>
       <div class="mb-3">
         <label class="form-label">Correu</label>
@@ -63,41 +65,53 @@
       </div>
       <div class="mb-3">
         <label class="form-label">Usuari</label>
-        <input name="usuari" type="email" placeholder="Bobbycotxes" class="form-control">
+        <input name="usuari" type="text" placeholder="Bobbycotxes" class="form-control">
       </div>
       <div class="mb-3">
         <label class="form-label ">DNI</label>
         <input name="dni" type="text" placeholder="12345678A" class="form-control">
       </div>
-      <div class="mb-3">
+      <div class="d-flex flex-row mb-3 justify-content-between gap-3">
+      <div>
         <label class="form-label ">Data neixament</label>
         <input name="dataneixament" type="date" class="form-control">
       </div>
-      <div class="mb-3">
+      <div>
         <label class="form-label ">Edat</label>
-        <input name="edat" type="number" min="18" max="60" class="form-control">
+        <input name="edat" type="number" min="18" max="60" class="form-control" value="18">
+      </div>
       </div>
       <div class="mb-3">
         <label class="form-label">Telefon</label>
         <input name="telefon" type="text" placeholder="932 345 678" class="form-control">
       </div>
-      <div class="mb-3">
+      <div class="d-flex flex-row mb-3 justify-content-between gap-3" >
+      <div>
         <label class="form-label ">Contrasenya</label>
-        <input name="contrasenya" type="password" class="form-control">
+        <input name="contrasenya" type="password" class="form-control" value="*******">
       </div>
-      <div class="mb-3">
+      <div>
         <label class="form-label ">Contrasenya Confirmar</label>
-        <input name="contrasenya-com" type="password" class="form-control">
+        <input name="contrasenya-com" type="password" class="form-control" value="********">
+      </div>
       </div>
       <div class="mb-3">
         <label class="form-label">Adreça</label>
-        <input type="email" placeholder="Rda. de Sant Antoni, 4, Ciutat Vella, 08001 Barcelona" class="form-control">
+        <input name="adreça" type="text" placeholder="Rda. de Sant Antoni, 4, Ciutat Vella, 08001 Barcelona" class="form-control">
       </div>
       <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input">
         <label class="form-check-label">Recordar?</label>
       </div>
-      <button type="submit" class="btn btn-primary mb-3">Submit</button>
+      <div class="d-flex flex-row mb-3 justify-content-between gap-3">
+        <div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div>
+          <button type="reset" class="btn btn-primary">Reset</button>
+        </div>
+
+      </div>
     </form>
   </div>
 

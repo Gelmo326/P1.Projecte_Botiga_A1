@@ -1,52 +1,169 @@
-body{
-    background-color: black;
+nav{
+    text-align: center;
+    padding: 1%;
+    width: 100%;
+    background-color: #474747;
 }
-#container{
-    width: 500px;
-    height: 1000px;
-    margin: auto;
-    padding: 50px;
+
+.compra{
+    width: 15px;
+    height: 15px;
 }
-div #esquerra{
-    float: left;
-    width: 30%;
-    text-align: right;
-    margin-right: 2%;
-    line-height: 2.3;
-}
-div #dreta{
-    float: right;
-    width: 68%;
+
+li{
+    display: inline;
 }
 h1{
-    color:white ;
+    display: inline;
+    text-align: center;
+    width: 89%;
+
 }
-h2{
-    border-bottom: 1px solid black;
+#cestaboto{
+    width: 5%;
+    display: block;
+}
+
+.menuP{
+    width: 50%;
+}
+
+img{
+    width: 10%;
+}
+
+header{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 19%;
+    background-color: black;
+    color: red;
+}
+
+.imgheader{
+    width: 80px;
+    height: 80px;
+}
+
+p#titolheader{
+    font-family: system-ui;
+}
+
+article{
+    width: 100%;
+    color: white;
+    background-color: #383838;
+    text-align: center;
+    padding: 2%;
+
+}
+
+.article-titol-div{
+    margin-top: 5px;
     margin-bottom: 10px;
-    color: white;
 }
-a{
-    color: whitesmoke;
-    font-size: .8em;
+
+.article-titol{
+    font-size: 50px;
 }
-select{
-    height: 2em;
-    width: 30%;
-    margin-top: 0.3em;
+
+#cotxe-benvinguda{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 400px;
 }
-input{
-    height: 2em;
-    width: 98%;
-    margin-top: 0.3em;
+
+footer{
+    background-color: black;
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 19%;
 }
-button{
-    height: 2em;
-    width: 30%;
-    margin-top: 0.3em;
-    background-color: #4caf50;
-    color: white;
+
+.prefooter{
+    background-color: #474747;
 }
-label{
-    color: white;
+
+.enllaços-footer a{
+    color: lightslategrey;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.enllaços-footer a:hover{
+    color: lightslategrey;
+}
+
+pre{
+    text-align: justify;
+    white-space: break-spaces;
+}
+
+
+.centrar{
+    align-content: center;
+}
+
+.xarxes{
+    width: 50px;
+    height: 50px;
+}
+
+.xarxestext{
+    font-size: 0.1em;
+}
+
+.titolcont{
+    font-size: xxx-large;
+    text-align: center;
+}
+
+
+#formulari-contenidor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    box-shadow: 10px 10px #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    text-align: center;
+
+}
+
+input[name="adreça"]{
+    width: 110%;
+    text-align: center;
+}
+
+input[type="email"]{
+    width: 120%;
+    text-align: center;
+}
+
+button[type="submit"],button[type="reset"]{
+    width: 100%;
 }

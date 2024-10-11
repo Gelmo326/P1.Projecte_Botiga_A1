@@ -146,6 +146,8 @@ form {
     width: 25%;
 }
 
+
+
 input[type="email"], input[type="password"], button[type="submit"] {
     width: 100%;
     text-align: center;
