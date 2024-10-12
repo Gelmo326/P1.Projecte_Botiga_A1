@@ -57,7 +57,7 @@ header h1 {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* con esto puedes modificar el tamaño del catalogo */
+    grid-template-columns: repeat(3, 1fr); /* con esto puedes modificar el tamaño del catalogo */
     gap: 30px;
     padding: 10px;
     max-width: 1200px;
@@ -108,39 +108,26 @@ header h1 {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    gap: 5px;
-}
-
-.quantity-label {
-    margin-right: 0;
 }
 
 .quantity-input {
-    width: 50px;
+    width: 60px;
     padding: 5px;
-    border: 2px solid #ffc107;
-    border-radius: 5px;
-    background-color: #1c1c1c;
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
 }
 
 .btn {
-    background: linear-gradient(90deg, #ffc107, #ffeb3b); /* gradiente de color */
+    background-color: #ffc107;
     border: none;
     color: black;
     padding: 10px 20px;
+    text-align: center;
     font-size: 16px;
-    border-radius: 30px;
+    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn:hover {
     background-color: #e0a800;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 1000px) { /* esto sirve para verlo desde un dispositivo mobil */

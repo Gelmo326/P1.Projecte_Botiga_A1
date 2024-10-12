@@ -1,6 +1,13 @@
 nav{
     text-align: center;
     padding: 1%;
+    width: 100%;
+    background-color: #474747;
+}
+
+.compra{
+    width: 15px;
+    height: 15px;
 }
 
 li{
@@ -12,57 +19,112 @@ h1{
     width: 89%;
 
 }
-.cestaboto{
-    display: inline;
+#cestaboto{
+   width: 5%;
+    display: block;
+}
 
+.menuP{
+    width: 50%;
 }
-#logo{
-    display: inline;
-}
+
 img{
     width: 10%;
 }
 
 
-section{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 1%;
-    display: inline;
-    float: left;
-    width: 80%;
+header{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    height: 19%;
+    background-color: black;
+    color: red;
+}
 
+.imgheader{
+    width: 80px;
+    height: 80px;
+}
 
+p#titolheader{
+    font-family: system-ui;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
 }
 
 article{
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 1%;
-    display: inline;
-    float: left;
     width: 80%;
+    color: white;
+    background-color: #383838;
+    text-align: center;
+    padding: 2%;
 }
+
+.article-titol-div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.article-titol{
+    font-size: 50px;
+}
+
+ #cotxe-benvinguda{
+     margin-top: 5px;
+     margin-bottom: 5px;
+     width: 600px;
+     height: 400px;
+ }
 
 aside{
     background-color: greenyellow;
     text-align: center;
     padding: 1%;
-    display: inline;
-    float: left;
-    width: 19%;
-    height: 80%;
+    width: 23%;
 }
+
+aside img{
+    width: 70px;
+    height: 120px;
+}
+
+.bg-ofertes div{
+    width: 100%;
+    background-color: #a2e15f;
+}
+
 footer{
     background-color: black;
     color: red;
     text-align: center;
-    padding: 0.5%;
     display: flex;
     justify-content: center;
-    width: 98%;
+    width: 100%;
     height: 19%;
+}
+
+.prefooter{
+    background-color: #474747;
+}
+
+.enllaços-footer a{
+    color: lightslategrey;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.enllaços-footer a:hover{
+    color: lightslategrey;
 }
 
 pre{
@@ -70,24 +132,10 @@ pre{
     white-space: break-spaces;
 }
 
-article{
-    background-color: #2f2f2f;
-    width: 79%;
-    height: 80%;
-}
-<!-- especific contacte -->
 
-h1.titol{
-    text-align: center;
+.centrar{
+    align-content: center;
 }
-
-#fonscontact{
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    color: white;
-}
-
 
 .xarxes{
     width: 50px;
@@ -102,3 +150,16 @@ h1.titol{
     font-size: xxx-large;
     text-align: center;
 }
+
+<!-- especific contacte -->
+
+#fonscontact{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    color: white;
+}
+
+
+
+
