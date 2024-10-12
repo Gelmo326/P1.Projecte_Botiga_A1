@@ -44,7 +44,6 @@
     <article>
 
         <div class="d-flex flex-row mb-3 justify-content-between gap-3">
-
         <div id="div-productes">
         <div class="d-flex flex-row mb-3 justify-content-between gap-1 producte">
             <div>
@@ -56,7 +55,7 @@
                 <input type="number" value="1" minlength="0" maxlength="10">
             </div>
             <div>
-                <input id="checkbox" type="checkbox" value="selecionar" checked>
+                <input type="checkbox" value="selecionar" checked>
                 <div>
                 <button type="button" class="btn-close" aria-label="Close"></button>
                 </div>
@@ -73,7 +72,7 @@
                 <input type="number" value="1" minlength="0" maxlength="10">
             </div>
             <div>
-                <input id="checkbox1" type="checkbox" value="selecionar" checked>
+                <input type="checkbox" value="selecionar" checked>
             </div>
             <div>
             <button type="button" class="btn-close" aria-label="Close"></button>
@@ -89,22 +88,35 @@
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Metode</label>
+                            <div class="mb-3">
+                                <label class="btn btn-primary me-2">
+                                    <input type="radio"  name="metodepagamanet" hidden><img class="metode" src="multimedia/metodespagament/mastercard.png">
+                                </label>
+                                <label class="btn btn-primary me-2">
+                                    <input type="radio"  name="metodepagamanet" hidden><img class="metode" src="multimedia/metodespagament/visa.png">
+                                </label>
+                                <label class="btn btn-primary me-2">
+                                    <input type="radio"  name="metodepagamanet" hidden><img class="metode" src="multimedia/metodespagament/paypal.png">
+                                </label>
+                                <label class="btn btn-primary me-2">
+                                    <input type="radio"  name="metodepagamanet" hidden><img class="metode" src="multimedia/metodespagament/targeta.png">
+                                </label>
+                            </div>
+                        <div class="d-flex flex-row mb-3 justify-content-between align-items-center gap-3">
+                            <div class="d-flex flex-column justify-content-center gap-1">
+                                <div>
+                                    <label class="form-label ">Titular</label>
+                                    <input name="nom-titular" type="text" placeholder="Bobby cotxes" class="form-control" required>
+                                </div>
+                            </div>
                             <div>
-                                <a href="inciarsessio.html" class="btn btn-primary me-2" type="button"><img class="compra" src="multimedia/"></a>
-                                <a href="inciarsessio.html" class="btn btn-primary me-2" type="button"><img class="compra" src="multimedia/"></a>
-                                <a href="inciarsessio.html" class="btn btn-primary me-2" type="button"><img class="compra" src="multimedia/"></a>
-                                <a href="inciarsessio.html" class="btn btn-primary me-2" type="button"><img class="compra" src="multimedia/"></a>
+                                <div>
+                                    <label class="form-label ">Numero targeta</label>
+                                    <input name="numero-targeta" type="text" placeholder="1234 5678 9101 1120" class="form-control" required>
+                                </div>
                             </div>
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label ">Titular</label>
-                            <input name="nom-titular" type="text" placeholder="Bobby cotxes" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label ">Numero targeta</label>
-                            <input name="numero-targeta" type="text" placeholder="1234 5678 9101 1120" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
+                        <div class="d-flex flex-row mb-3 justify-content-between gap-3">
                             <div>
                                 <label class="form-label ">data d'expiració</label>
                                 <input name="data-expiracio" type="month" placeholder="12/99" class="form-control" required>
@@ -114,15 +126,32 @@
                                 <input name="cvv" type="number" placeholder="999" min="0" max="999" class="form-control" required>
                             </div>
                         </div>
+                        </div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" required>
                             <label name="reocordar-sessio" class="form-check-label">Has iniciat sessió? <small>si no fas no podras comprar recorda!!</small></label>
                         </div>
-                        <div class="mb-3 form-check">
+                        <div class="m-3 form-check">
                             <input type="checkbox" class="form-check-input">
                             <label name="reocordar-targeta" class="form-check-label">Vols guardar les dades del teu metode de compra a la teva compta?</label>
                         </div>
-                        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                        <div class="d-flex flex-row mb-3 mt-3 justify-content-between gap-3">
+                            <h2>Factura:</h2>
+                            <div>
+                                <div><p>Total productes: </p></div>
+                                <div><p>Taxes: </p></div>
+                                <div><p>Total productes: </p></div>
+                            </div>
+                            <div>
+                                <div><p>000.00€ </p></div>
+                                <div><p>000.00€ </p></div>
+                                <div><p>000.00€ </p></div>
+                            </div>
+                            <div></div>
+                        </div>
+                        <h1>Productes:</h1>
+                        <h2>00.00€</h2>
+                        <button type="submit" class="btn btn-primary mb-3">Comprar</button>
                     </form>
                 </div>
 
