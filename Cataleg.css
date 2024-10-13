@@ -162,6 +162,12 @@ body article {
     padding: 0;
 }
 
+body article h1 {
+    font-family: Constantia, "Times new Roman", serif;
+    text-align: center;
+    font-size: 100px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
