@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cataleg Cotxes</title>
-    <link rel="stylesheet" href="Cataleg.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Cataleg.css">
     <link rel="icon" type="img/png" href="multimedia/favicon-32x32.png">
 </head>
 
 <body>
+
 <header class="mt-0">
     <div class="d-flex justify-content-center">
         <div class="text-center mt-2 me-2">
@@ -44,151 +45,248 @@
 
 </nav>
 
-<h1>CATÀLEG</h1>
 
-<div class="container">
-    <aside class="sidebar">
-        <h2>Filtrar per:</h2>
-        <ul>
-            <li><a href="#">Preu</a></li>
-            <li><a href="#">Marca</a></li>
-            <li><a href="#">Any</a></li>
-            <li><a href="#">Color</a></li>
-        </ul>
-    </aside>
+<main>
 
-    <main class="content">
-        <div class="product-grid">
-            <div class="product-item" id="car1">
-                <img src="images/Mustang%20Dodge%20Challenger.png" alt="Mustang Dodge Challenger"/>
-                <div class="product-info">
-                <h3>Mustang Dodge Challenger</h3>
-                <p>176.203 €</p>
-                    <div class="actions">
-                        <a type="button" class="btn btn-warning">Afegir a la cistella</a>
-                        <label for="quantity1" class="quantity-label">Cantidad:</label>
-                        <input type="number" id="quantity1" class="quantity-input" min="1" value="1">
+    <article>
+        <div class="mt-3">
+        <h1 class="fs-1">CATÀLEG</h1>
+        </div>
+
+        <div class="container">
+            <div class="sidebar">
+                <h2>Filtrar per:</h2>
+                <ul>
+                    <li><a href="#">Preu</a></li>
+                    <li><a href="#">Marca</a></li>
+                    <li><a href="#">Any</a></li>
+                    <li><a href="#">Color</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div class="product-grid">
+                    <div class="product-item" id="car1">
+                        <img src="images/Mustang%20Dodge%20Challenger.png" alt="Mustang Dodge Challenger"/>
+                        <div class="product-info">
+                            <h3>Mustang Dodge Challenger</h3>
+                            <p>176.203 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car2">
+                        <img src="images/Buggati%20LaVultNoir.jpeg" alt="Buggati La Vult Noir">
+                        <div class="product-info">
+                            <h3>Buggati La Vult Noir</h3>
+                            <p>18.000.000 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" id="quantity1" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car3">
+                        <img src="images/Lambo%20Aventador.png" alt="Lamborghini Aventador">
+                        <div class="product-info">
+                            <h3>Lamborghini Aventador</h3>
+                            <p>458.835 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car4">
+                        <img src="images/Mazda%20Miata.png" alt="Mazda Miata">
+                        <div class="product-info">
+                            <h3>Mazda Miata</h3>
+                            <p>30.364 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car5">
+                        <img src="images/Kawasaki%20Ninja%20H2R.png" alt="Kawasaki Ninja H2R">
+                        <div class="product-info">
+                            <h3>Kawasaki Ninja H2R</h3>
+                            <p>55.000 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car6">
+                        <img src="images/Ferrari%20Roma.png" alt="Ferrari Roma">
+                        <div class="product-info">
+                            <h3>Ferrari Roma</h3>
+                            <p>254.579 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car7">
+                        <img src="images/Lambo%20Urus.png" alt="Lamborghini Urus">
+                        <div class="product-info">
+                            <h3>Lamborghini Urus</h3>
+                            <p>240.294 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car8">
+                        <img src="images/Aston%20Martin%20DB12.png" alt="Aston Martin DB12">
+                        <div class="product-info">
+                            <h3>Aston Martin DB12</h3>
+                            <p>338.000 €</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item" id="car9">
+                        <img src="images/Maserati%20MC20.png" alt="Maserati MC20">
+                        <div class="product-info">
+                            <h3>Maserati MC20</h3>
+                            <p>$2,115,000</p>
+                            <div class="actions">
+                                <a type="button" class="btn btn-warning">Afegir a la cistella</a>
+                                <label for="quantity1" class="quantity-label">Cantidad:</label>
+                                <input type="number" class="quantity-input" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </article>
+
+    <aside>
+        <aside>
+            <h1 class="text-center">Ofertes</h1>
+
+            <h2 class="mt-3"><strong>Destacat!</strong></h2>
+            <div class="bg-ofertes">
+                <div class="card m-1 bg-ofertes" style="width: 18rem;">
+                    <h3>Zentorno GX-200 a un <strong>10% de descompte</strong></h3>
+                    <img class="card-img-top" src="multimedia/cotxes/cotxe9.jpg" alt="cotxeoferta1">
+                    <p><small>Zentorno GX-200 <s>120.000€</s>--><strong>108.000€!!</strong></small></p>
+                    <div class="card-body">
+                        <p class="card-text">Comprat el teu nou cotxe amb nosaltres a Bobby cotxes i farem un descompte adicional del 10% per ser soci!!!</p>
                     </div>
                 </div>
             </div>
 
-            <div class="product-item" id="car2">
-                <img src="images/Buggati%20LaVultNoir.jpeg" alt="Buggati La Vult Noir">
-                <div class="product-info">
-                <h3>Buggati La Vult Noir</h3>
-                <p>18.000.000 €</p>
+
+            <h2 class="mt-3"><strong>Destacat!</strong></h2>
+            <div class="bg-ofertes">
+                <div class="card m-1 bg-ofertes" style="width: 18rem;">
+                    <h3>Infernus GT A-1 a un<strong>15% de descompte</strong></h3>
+                    <img class="card-img-top" src="multimedia/cotxes/cotxeoferta2.jpg" alt="cotxe oferta2">
+                    <p><small>Infernus GT <s>150.000€</s> --> <strong>127.500€!!</strong></small></p>
+                    <div class="card-body">
+                        <p class="card-text">Adquireix l'Infernus GT amb nosaltres a Bobby cotxes i gaudeix d'un descompte addicional del 10% per a socis!</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="product-item" id="car3">
-                <img src="images/Lambo%20Aventador.png" alt="Lamborghini Aventador">
-                <div class="product-info">
-                <h3>Lamborghini Aventador</h3>
-                <p>458.835 €</p>
+
+            <h2 class="mt-3"><strong>Destacat!</strong></h2>
+            <div class="bg-ofertes">
+                <div class="card m-1" style="width: 18rem;">
+                    <h3>Cheetah Turbo 900-VC <strong>12% de descompte</strong></h3>
+                    <img class="card-img-top" src="multimedia/cotxes/cotxeoferta3.jpg" alt="cotxeoferta3">
+                    <p><small>Cheetah Turbo <s>140.000€</s> --> <strong>123.200€!!</strong></small></p>
+                    <div class="card-body">
+                        <p class="card-text">Compra el teu Cheetah Turbo amb nosaltres a Bobby cotxes i rebràs un descompte extra del 10% per ser soci!</p>
+                    </div>
                 </div>
+
             </div>
 
-            <div class="product-item" id="car4">
-                <img src="images/Mazda%20Miata.png" alt="Mazda Miata">
-                <div class="product-info">
-                <h3>Mazda Miata</h3>
-                <p>30.364 €</p>
-                </div>
-            </div>
+        </aside>
+    </aside>
 
-            <div class="product-item" id="car5">
-                <img src="images/Kawasaki%20Ninja%20H2R.png" alt="Kawasaki Ninja H2R">
-                <div class="product-info">
-                <h3>Kawasaki Ninja H2R</h3>
-                <p>55.000 €</p>
-                </div>
-            </div>
-
-            <div class="product-item" id="car6">
-                <img src="images/Ferrari%20Roma.png" alt="Ferrari Roma">
-                <div class="product-info">
-                <h3>Ferrari Roma</h3>
-                <p>254.579 €</p>
-                </div>
-            </div>
-
-            <div class="product-item" id="car7">
-                <img src="images/Lambo%20Urus.png" alt="Lamborghini Urus">
-                <div class="product-info">
-                <h3>Lamborghini Urus</h3>
-                <p>240.294 €</p>
-                </div>
-            </div>
-
-            <div class="product-item" id="car8">
-                <img src="images/Aston%20Martin%20DB12.png" alt="Aston Martin DB12">
-                <div class="product-info">
-                <h3>Aston Martin DB12</h3>
-                <p>338.000 €</p>
-                </div>
-            </div>
-
-            <div class="product-item" id="car9">
-                <img src="images/Maserati%20MC20.png" alt="Maserati MC20">
-                <div class="product-info">
-                <h3>Maserati MC20</h3>
-                <p>$2,115,000</p>
-                </div>
-            </div>
-
-        </div>
     </main>
-</div>
 
-<footer>
-    <div class="d-flex flex-column">
-        <div class="d-flex flex-row prefooter">
-            <div class="mt-3">
-                <h3>Vols treballar amb noslatres?</h3>
-                <p>Escriu un correu a: contratacions@bobbycotxes.com</p>
-            </div>
+    <footer>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row prefooter">
+                <div class="mt-3">
+                    <h3>Vols treballar amb noslatres?</h3>
+                    <p>Escriu un correu a: contratacions@bobbycotxes.com</p>
+                </div>
 
-            <div class="mt-3">
-                <h2>Xarxes socials</h2>
-                <div class="d-flex flex-row justify-content-between">
-                    <div class="me-2"><button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-placement="top" title="Whatsapp" data-bs-content="612 345 678 "><img class="xarxes" src="multimedia/xarxessocials/whatsapp.png"></button></div>
-                    <div class="me-2"><button type="button" class="btn btn-outline-danger" data-bs-toggle="popover" data-bs-placement="bottom" title="Instagram" data-bs-content="@bobbycotxesofficial"><img class="xarxes" src="multimedia/xarxessocials/instagram.png"></button></div>
-                    <div> <button type="button" class="btn btn-outline-primary buttoF" data-bs-toggle="popover" data-bs-placement="top" title="Facebook" data-bs-content="Bobby Cotxes Official"><img class="xarxes" src="multimedia/xarxessocials/facebook.png"></button></div>
+                <div class="mt-3">
+                    <h2>Xarxes socials</h2>
+                    <div class="d-flex flex-row justify-content-between">
+                        <div class="me-2"><button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-placement="top" title="Whatsapp" data-bs-content="612 345 678 "><img class="xarxes" src="multimedia/xarxessocials/whatsapp.png"></button></div>
+                        <div class="me-2"><button type="button" class="btn btn-outline-danger" data-bs-toggle="popover" data-bs-placement="bottom" title="Instagram" data-bs-content="@bobbycotxesofficial"><img class="xarxes" src="multimedia/xarxessocials/instagram.png"></button></div>
+                        <div> <button type="button" class="btn btn-outline-primary buttoF" data-bs-toggle="popover" data-bs-placement="top" title="Facebook" data-bs-content="Bobby Cotxes Official"><img class="xarxes" src="multimedia/xarxessocials/facebook.png"></button></div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <h3>Vols saber més sobre nosaltres? clica aqui</h3>
+                    <a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a>
+                </div>
+
+                <div class="mt-3 mb-3">
+                    <div>
+                        <h3>Enllaços d'interes juridic</h3>
+                    </div>
+                    <div class="enllaços-footer">
+                        <div><a href="https://portaljuridic.gencat.cat/eli/es/lo/2018/12/05/3">Llei de Protecció de Dades</a></div>
+                        <div><a href="https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=150&modo=2&nota=0&tab=2">Codi civil</a></div>
+                        <div><a href="https://portaljuridic.gencat.cat/eli/es/l/2002/07/11/34">Llei de Serveis de la Societat de la Informació i del Comerç Electrònic</a></div>
+                        <div><a href="https://consum.gencat.cat/ca/lagencia/codi-de-consum-de-catalunya/sintesi-dels-drets-de-les-persones-consumidores-i-usuaries/els-drets-basics-de-les-persones-consumidores/">Drets del Consumidor</a></div>
+                    </div>
                 </div>
             </div>
+
             <div class="mt-3">
-                <h3>Vols saber més sobre nosaltres? clica aqui</h3>
-                <a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a>
+                <p>Copyright © 2024 Bobby Cotxes</p>
             </div>
 
-            <div class="mt-3 mb-3">
-                <div>
-                    <h3>Enllaços d'interes juridic</h3>
-                </div>
-                <div class="enllaços-footer">
-                    <div><a href="https://portaljuridic.gencat.cat/eli/es/lo/2018/12/05/3">Llei de Protecció de Dades</a></div>
-                    <div><a href="https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=150&modo=2&nota=0&tab=2">Codi civil</a></div>
-                    <div><a href="https://portaljuridic.gencat.cat/eli/es/l/2002/07/11/34">Llei de Serveis de la Societat de la Informació i del Comerç Electrònic</a></div>
-                    <div><a href="https://consum.gencat.cat/ca/lagencia/codi-de-consum-de-catalunya/sintesi-dels-drets-de-les-persones-consumidores-i-usuaries/els-drets-basics-de-les-persones-consumidores/">Drets del Consumidor</a></div>
-                </div>
-            </div>
         </div>
+    </footer>
 
-        <div class="mt-3">
-            <p>Copyright © 2024 Bobby Cotxes</p>
-        </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
 
-    </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script>
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-    })
-</script>
-
+</main>
 </body>
 </html>

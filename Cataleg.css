@@ -1,4 +1,4 @@
-<!-- Menu Inici i Footer -->
+
 nav{
     text-align: center;
     padding: 1%;
@@ -14,7 +14,7 @@ nav{
 li{
     display: inline;
 }
-header h1{
+h1{
     display: inline;
     text-align: center;
     width: 89%;
@@ -29,7 +29,7 @@ header h1{
     width: 50%;
 }
 
-header img{
+img{
     width: 10%;
 }
 
@@ -63,7 +63,7 @@ main{
 article{
     width: 80%;
     color: white;
-    background-color: #383838 !important;
+    background-color: #383838;
     text-align: center;
     padding: 2%;
 }
@@ -77,6 +77,29 @@ article{
     font-size: 50px;
 }
 
+#cotxe-benvinguda{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 400px;
+}
+
+aside{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 1%;
+    width: 23%;
+}
+
+aside img{
+    width: 70px;
+    height: 120px;
+}
+
+.bg-ofertes div{
+    width: 100%;
+    background-color: #a2e15f;
+}
 
 footer{
     background-color: black;
@@ -88,11 +111,11 @@ footer{
     height: 19%;
 }
 
-footer .prefooter{
+.prefooter{
     background-color: #474747;
 }
 
-footer .enllaços-footer a{
+.enllaços-footer a{
     color: lightslategrey;
     margin: 1%;
     display: flex;
@@ -101,57 +124,41 @@ footer .enllaços-footer a{
     gap: 1%;
 }
 
-footer .enllaços-footer a:hover{
+.enllaços-footer a:hover{
     color: lightslategrey;
 }
 
-footer pre{
+pre{
     text-align: justify;
     white-space: break-spaces;
 }
 
 
-footer .centrar{
+.centrar{
     align-content: center;
 }
 
-footer .xarxes{
+.xarxes{
     width: 50px;
     height: 50px;
 }
 
-footer .xarxestext{
+.xarxestext{
     font-size: 0.1em;
 }
 
-footer .titolcont{
+.titolcont{
     font-size: xxx-large;
     text-align: center;
 }
 
-<!-- especific contacte -->
 
-footer #fonscontact{
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-    color: white;
-}
-
-
-<!-- config cataleg -->
-body {
+body article {
     font-family: Arial, sans-serif;
+    background-color: #383838;
     color: white;
-    background-color: #383838 !important;
     margin: 0;
     padding: 0;
-}
-
-h1 {
-    font-family: Constantia, "Times new Roman", serif;
-    text-align: center;
-    font-size: 100px;
 }
 
 .container {
@@ -218,11 +225,10 @@ h1 {
 }
 
 .product-item img {
-    max-width: 100%;
-    height: 200px;
-    object-fit: cover;
+    width: 100%;
+    height: 50%;
+
     border-bottom: 3px solid #ff0000;
-    flex: 6em; /* 60% */
 }
 
 .product-info {
@@ -250,6 +256,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    gap: 10px;
 }
 
 .quantity-input {
@@ -257,7 +264,7 @@ h1 {
     padding: 5px;
 }
 
-.btn {
+.btn article {
     background-color: #ffc107;
     border: none;
     color: black;
@@ -268,30 +275,12 @@ h1 {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover article {
     background-color: #e0a800;
 }
 
-
-<!-- aqui config para que sea responsive -->
-@media (max-width: 1400px) { /* esto sirve para verlo desde un dispositivo mobil */
-    .product-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* con esto puedes modificar el tamaño del catalogo */
-        gap: 30px;
-        padding: 10px;
-        max-width: 1200px;
-        margin: auto;
-    }
-}
-
-@media (max-width: 1100px) { /* esto sirve para verlo desde un dispositivo mobil */
-    .product-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr); /* con esto puedes modificar el tamaño del catalogo */
-        gap: 30px;
-        padding: 10px;
-        max-width: 1200px;
-        margin: auto;
+@media (max-width: 1000px) { /* esto sirve para verlo desde un dispositivo mobil */
+    body {
+        background: blue;
     }
 }
