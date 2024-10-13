@@ -5,13 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cataleg Cotxes</title>
     <link rel="stylesheet" href="Cataleg.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="img/png" href="multimedia/favicon-32x32.png">
 </head>
 
 <body>
-
-<header>
-    <h1>CATÀLEG</h1>
+<header class="mt-0">
+    <div class="d-flex justify-content-center">
+        <div class="text-center mt-2 me-2">
+            <img class="img-fluid imgheader" src="multimedia/logo.png" alt="Logo">
+        </div>
+        <div>
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                    <p id="titolheader" class="fs-1">Cotxes Bobby</p>
+                </blockquote>
+                <p class="blockquote-footer">
+                    Potencia en cada corba, la emoció en cada kilometre
+                </p>
+            </figure>
+        </div>
+    </div>
 </header>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex justify-content-between">
+        <div class="d-flex menuP">
+            <div class="me-2"><a type="button" class="btn btn-outline-danger" href="index.html">Home</a></div>
+            <div class="me-2"><a type="button" class="btn btn-outline-danger" href="Cataleg.html">Catalec</a></div>
+            <div class="me-2"><a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a></div>
+            <div class="me-2"><a type="button" class="btn btn-outline-danger" href="contact.html">Contacte</a></div>
+            <div class="me-2"><a type="button" class="btn btn-outline-danger" href="condicions.html">Condicions</a></div>
+        </div>
+        <div id="cestaboto" class="d-flex flex-row justify-content-md-end justify-content-between">
+            <a href="inciarsessio.html" class="btn btn-primary me-2" type="button"><img class="compra" src="multimedia/compte.png"></a>
+            <a href="Cesta.html" class="btn btn-primary" type="button"><img class="compra" src="multimedia/compra.png"></a>
+        </div>
+    </div>
+
+</nav>
+
+<h1>CATÀLEG</h1>
 
 <div class="container">
     <aside class="sidebar">
@@ -106,5 +139,56 @@
         </div>
     </main>
 </div>
+
+<footer>
+    <div class="d-flex flex-column">
+        <div class="d-flex flex-row prefooter">
+            <div class="mt-3">
+                <h3>Vols treballar amb noslatres?</h3>
+                <p>Escriu un correu a: contratacions@bobbycotxes.com</p>
+            </div>
+
+            <div class="mt-3">
+                <h2>Xarxes socials</h2>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="me-2"><button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-placement="top" title="Whatsapp" data-bs-content="612 345 678 "><img class="xarxes" src="multimedia/xarxessocials/whatsapp.png"></button></div>
+                    <div class="me-2"><button type="button" class="btn btn-outline-danger" data-bs-toggle="popover" data-bs-placement="bottom" title="Instagram" data-bs-content="@bobbycotxesofficial"><img class="xarxes" src="multimedia/xarxessocials/instagram.png"></button></div>
+                    <div> <button type="button" class="btn btn-outline-primary buttoF" data-bs-toggle="popover" data-bs-placement="top" title="Facebook" data-bs-content="Bobby Cotxes Official"><img class="xarxes" src="multimedia/xarxessocials/facebook.png"></button></div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <h3>Vols saber més sobre nosaltres? clica aqui</h3>
+                <a type="button" class="btn btn-outline-danger" href="sobre.nosaltres.html">Sobre nosaltres</a>
+            </div>
+
+            <div class="mt-3 mb-3">
+                <div>
+                    <h3>Enllaços d'interes juridic</h3>
+                </div>
+                <div class="enllaços-footer">
+                    <div><a href="https://portaljuridic.gencat.cat/eli/es/lo/2018/12/05/3">Llei de Protecció de Dades</a></div>
+                    <div><a href="https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=150&modo=2&nota=0&tab=2">Codi civil</a></div>
+                    <div><a href="https://portaljuridic.gencat.cat/eli/es/l/2002/07/11/34">Llei de Serveis de la Societat de la Informació i del Comerç Electrònic</a></div>
+                    <div><a href="https://consum.gencat.cat/ca/lagencia/codi-de-consum-de-catalunya/sintesi-dels-drets-de-les-persones-consumidores-i-usuaries/els-drets-basics-de-les-persones-consumidores/">Drets del Consumidor</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <p>Copyright © 2024 Bobby Cotxes</p>
+        </div>
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
+
 </body>
 </html>
