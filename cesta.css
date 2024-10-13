@@ -10,6 +10,11 @@ nav{
     height: 15px;
 }
 
+.metode{
+    width: 25px;
+    height: 25px;
+}
+
 li{
     display: inline;
 }
@@ -29,7 +34,12 @@ h1{
 }
 
 img{
-    width: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.producte div{
+    width: 20%;
 }
 
 header{
@@ -130,16 +140,68 @@ pre{
 
 
 .producte{
-    background-color: red;
+    background-color: #e10000;
     width: 100%;
-    align-content: flex-start;
     padding: 10px;
+    box-shadow: 6px 6px #1c1c1c;
+    border-radius: 5px;
 }
 
-#formulari-contenidor{
+#formulari-contenidor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    box-shadow: 10px 10px #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
 #div-productes{
     width: 50%;
+}
+
+p{
+    text-align: center;
+}
+
+input[type="month"]{
+    text-align: center;
+    width: 72%;
+    margin: auto;
+}
+
+input[name="numero-targeta"]{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+input[name="nom-titular"]{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+form input[type="number"]{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+input[type="number"]{
+    width: 80%;
+}
+
+button[type="submit"]{
+    width: 40%;
+    height: 100%;
+
 }
