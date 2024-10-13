@@ -1,4 +1,4 @@
-
+/* config de header y footer */
 nav{
     text-align: center;
     padding: 1%;
@@ -152,7 +152,8 @@ pre{
     text-align: center;
 }
 
-
+/* config restante */
+/* QUITAR CONFIG DE SIDEBAR */
 body article {
     font-family: Arial, sans-serif;
     background-color: #383838;
@@ -279,8 +280,26 @@ body article {
     background-color: #e0a800;
 }
 
-@media (max-width: 1000px) { /* esto sirve para verlo desde un dispositivo mobil */
-    body {
-        background: blue;
+
+/* config para el responsive */
+@media (max-width: 1630px) { /* esto sirve para verlo desde un dispositivo mobil */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* con esto puedes modificar el tamaño del catalogo */
+        gap: 30px;
+        padding: 10px;
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1100px) { /* esto sirve para verlo desde un dispositivo mobil */
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* con esto puedes modificar el tamaño del catalogo */
+        gap: 30px;
+        padding: 10px;
+        max-width: 1200px;
+        margin: auto;
     }
 }
