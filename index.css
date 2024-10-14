@@ -187,6 +187,7 @@ pre {
     .prefooterordre{
         display: flex;
         flex-direction: row;
+        gap: 2px;
     }
 
     .menuresponsive {
@@ -236,11 +237,11 @@ pre {
     }
 
     footer{
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 
     footer h2, footer h3{
-        font-size: 0.7em;
+        font-size: 1.7em;
     }
 
     footer .xarcesordre{
@@ -248,24 +249,59 @@ pre {
     }
 
     footer .btn{
-        width: 40%;
+        padding: 10%;
+        width: 100%;
         font-size: 100%;
     }
 
+    .xarcesordre{
+        width: 35%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .footer1{
+        font-size: 0.8em;
+        width: 22%;
+    }
+
+    .footer2{
+        width: 22%;
+    }
+
+    .footer2 .btn{
+        width: 50%;
+    }
+
+    .footer3{
+        width: 22%;
+    }
+
     .xarxesdiv{
-        margin: 1%;
-        width: 33.3%;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .xarxesdiv button{
+        margin: 0;
     }
 
     .xarxes{
-        height: 100%;
+        height: 15px;
+        width: 15px;
+    }
+
+    .xarxescontenidor{
+        gap: 20px;
         width: 100%;
     }
 
-    footer .me-2{
-        margin-left: 5px;
+    #btnsobrenosaltres a{
+        width: 5%;
     }
-
 
 
 
