@@ -271,9 +271,3 @@ body article {
         margin: auto;
     }
 }
-
-@media (max-width: 525px) { /* oculta el aside de ofertas cuando la pantalla es demasiado estrecha */
-    main aside {
-        display: none;
-    }
-}
