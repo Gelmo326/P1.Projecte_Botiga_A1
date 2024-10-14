@@ -147,7 +147,9 @@ form {
     width: 25%;
 }
 
-
+#ubi{
+    width: 70%;
+}
 
 input[type="email"], input[type="password"], button[type="submit"] {
     width: 100%;
