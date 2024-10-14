@@ -249,6 +249,7 @@ body article {
 }
 
 
+
 /* config para el responsive */
 @media (max-width: 1430px) { /* esto sirve para verlo desde un dispositivo mobil */
     .product-grid {
